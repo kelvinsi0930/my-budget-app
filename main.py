@@ -4,8 +4,8 @@ balance = 0
 records = []
 
 while True:
-    action = input("輸入類型（收入/支出/結束）：")
-    if action == "結束":
+    action = input("輸入類型（收入/支出/end）：")
+    if action == "end":
         break
     amount = int(input("金額："))
     if action == "收入":
