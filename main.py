@@ -1,3 +1,5 @@
+# 這是我的第一個專案
+
 balance = 0
 records = []
 
