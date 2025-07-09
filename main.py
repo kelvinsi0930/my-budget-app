@@ -4,13 +4,13 @@ balance = 0
 records = []
 
 while True:
-    action = input("輸入類型（收入/支出/end）：")
+    action = input("輸入類型（income/expense/end）：")
     if action == "end":
         break
     amount = int(input("金額："))
-    if action == "收入":
+    if action == "income":
         balance += amount
-    elif action == "支出":
+    elif action == "expense":
         balance -= amount
     records.append((action, amount))
     print(f"目前結餘：{balance}")
